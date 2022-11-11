@@ -1,0 +1,186 @@
+@import url('https://fonts.googleapis.com/css2?family=Jolly+Lodger&family=K2D:ital,wght@0,500;1,600&family=Montserrat:ital,wght@0,500;1,700&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.left{
+    background-color: black;
+    width: 10%;
+    position: absolute;
+    top: 10%;
+    height: 100vh;
+}
+.logo-left{
+    background-image: url("./Images/logo.png");
+    height: 80px;
+    width: 80px;
+    position: relative;
+    left: 20%;
+    top: 5%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+.logo-left{
+    transform: rotate(90deg);
+}
+.heading-wrapper{
+   width: 80%;
+   height: 200px;
+   position: relative;
+   left:10%;
+}
+.heading{
+    color: black;
+    position: absolute;
+    font-size: 1rem;
+    left: 30%;
+}
+
+.About-wrapper{
+    position: relative;
+    height: 300px;
+    width: 80%;
+    left: 10%;
+    background: #0008C1;
+    color: white;
+}
+.About-container{
+    height: 300px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-items: center;
+    position: relative;
+}
+.About-heading{
+    font-family: 'K2D', sans-serif;
+    position: absolute;
+    left: 10%;
+    top: -10%;
+ position: relative;
+}
+.para-About{
+    position: absolute;
+    left: 10%;
+    bottom: 30%;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.right{
+    background-color: black;
+    width: 10%;
+    position: absolute;
+    top: 10%;
+    height: 100vh;
+   right: 0;
+}
+.logo-right{
+    background-image: url("./Images/logo.png");
+    height: 80px;
+    width: 80px;
+    position: relative;
+    left: 20%;
+    top: 5%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    transform: rotate(-90deg);
+}
+.contact-wrapper{
+    position: relative;
+    left: 10%;
+    height: 220px;
+    width: 80%;
+    background: #0008C1;
+    text-align: center;
+    font-family: 'K2D', sans-serif;
+}
+.contact-heading{
+    color: white;
+}
+
+.contact-id{
+    color: white;
+    padding-top: 10px;
+}
+
+@media screen and (max-width:480px) {
+    .logo-left{
+        height: 40px;
+        width: 40px;
+        position: relative;
+        left: 0;
+        top: 10%;
+    }
+    .logo-right{
+        height: 40px;
+        width: 40px;
+        position: relative;
+        left: 0%;
+        top: 10%;
+    }
+    .heading{
+        color: black;
+        position: absolute;
+        font-size: 10px;
+        left: 5%;
+    }
+    .About-heading{
+        font-size: 6px;
+        left: 5%;
+    }
+    .para-About{
+        font-size: 10px;
+    }
+    .left{
+        top: 0;
+    }
+    label{
+        width: 50%;
+    }
+  .right{
+    top: 0;
+  }
+}
+@media screen and (min-width:480px) and (max-width:820px) {
+    .logo-left{
+        height: 80px;
+        width: 80px;
+        position: relative;
+        top: 10%;
+    }
+    .logo-right{
+        height: 80px;
+        width: 80px;
+        position: relative;
+        top: 10%;
+    }
+    .heading{
+        color: black;
+        position: absolute;
+        font-size: 17px;
+        left: 10%;
+    }
+    .About-heading{
+        font-size: 10px;
+        left: 25%;
+    }
+    .para-About{
+        font-size: 15px;
+    }
+    .left{
+      top: 0;
+    }
+    .right{
+        top: 0;
+    }
+
+}   
+/*     font-family: 'Jolly Lodger', cursive;
+
+    font-family: 'K2D', sans-serif;
+
+    font-family: 'Montserrat', sans-serif; */

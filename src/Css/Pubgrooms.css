@@ -1,0 +1,274 @@
+@import url('https://fonts.googleapis.com/css2?family=Jolly+Lodger&family=K2D:ital,wght@0,300;0,400;0,500;1,400&display=swap');
+
+.wrapper{
+    height: 100vh;
+    position: relative;
+}
+.panels-wrapperone{
+ height: 500px;
+}
+.panels-placerone{
+    display: flex;
+    align-items: center;
+    height: 500px;
+ position: relative;
+}
+.solo-panel{
+    position: absolute;
+    top: 10%;
+    left: 10%;
+    height: 600px;
+    width: 300px;
+    background-image: url("./Images/solo.jpeg");
+    background-repeat:no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+.solo-panel .first{
+    height: 50px;
+    width: 150px;
+    background-color: black;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: absolute;
+    top: -8%;
+    left: 25%;
+    font-family: 'Jolly Lodger', cursive;
+    font-size: 30px;
+}
+.solo-panel .second{
+    height: 50px;
+    width: 150px;
+    background-color: black;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: absolute;
+    bottom: -8%;
+    left: 25%;
+    font-family: 'Jolly Lodger', cursive;
+    font-size: 30px;
+}
+.duo-panel{
+    height: 600px;
+    width: 300px;
+    background-image: url("./Images/duo.jpeg");
+    background-repeat:no-repeat;
+    background-size: cover;
+    background-position: center;
+    position: absolute;
+    right: 10%;
+    top: 10%;
+    font-family: 'Jolly Lodger', cursive;
+}
+.duo-panel .first{
+    height: 50px;
+    width: 150px;
+    background-color: black;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: absolute;
+    top: -8%;
+    left: 25%;
+    font-size: 30px;
+    font-family: 'Jolly Lodger', cursive;
+}
+.duo-panel .second{
+    height: 50px;
+    width: 150px;
+    font-size: 30px;
+    background-color: black;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: absolute;
+    bottom: -8%;
+    left: 25%;
+    font-family: 'Jolly Lodger', cursive;
+}
+.panels-placertwo{
+    height: 500px;
+    position: relative;
+}
+.squad-panel{
+    height: 600px;
+    width: 300px;
+    background-image: url("./Images/squad.jpeg");
+    background-repeat:no-repeat;
+    background-size: cover;
+    background-position: center;
+    position: absolute;
+    left: 10%;
+    bottom: -75%;
+    font-family: 'Jolly Lodger', cursive;
+}
+.squad-panel .first{
+    height: 50px;
+    width: 150px;
+    background-color: black;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: absolute;
+    top: -8%;
+    left: 25%;
+    font-size: 30px;
+    font-family: 'Jolly Lodger', cursive;
+}
+.squad-panel .second{
+    height: 50px;
+    width: 150px;
+    font-size: 30px;
+    background-color: black;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: absolute;
+    bottom: -8%;
+    left: 25%;
+    font-family: 'Jolly Lodger', cursive;
+}
+.tdm-panel{
+    height: 600px;
+    width: 300px;
+    background-image: url("./Images/tdm.jpg");
+    background-repeat:no-repeat;
+    background-size: cover;
+    background-position: center;
+    position: absolute;
+    right: 10%;
+    bottom: -75%;
+    font-family: 'Jolly Lodger', cursive;
+}
+.tdm-panel .first{
+    height: 50px;
+    width: 150px;
+    background-color: black;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: absolute;
+    top: -8%;
+    left: 25%;
+    font-size: 30px;
+    font-family: 'Jolly Lodger', cursive;
+}
+.tdm-panel .second{
+    height: 50px;
+    width: 150px;
+    font-size: 30px;
+    background-color: black;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: absolute;
+    bottom: -8%;
+    left: 25%;
+    font-family: 'Jolly Lodger', cursive;
+}
+@media screen and (max-width:480px) {
+    .solo-panel{
+        position: absolute;
+        top: 10%;
+        left: 5%;
+        height: 300px;
+        width: 150px;
+        z-index: 10;
+    }
+    .duo-panel{
+        position: absolute;
+        top: 10%;
+        right: 10%;
+        height: 300px;
+        width: 150px;
+    }  .squad-panel{
+        position: absolute;
+        top: 10%;
+        left: 0%;
+        height: 300px;
+        width: 150px;
+    }
+    .solo-panel .first{
+        height: 40px;
+        width: 100px;
+        font-size: 20px;
+        font-family: 'Jolly Lodger', cursive;
+        top: -15%;
+    }
+    .solo-panel .second{
+        height: 40px;
+        width: 100px;
+        font-size: 20px;
+        bottom: -15%;
+        font-size: 20px;
+        font-family: 'Jolly Lodger', cursive;
+    }
+    .duo-panel .first{
+        height: 40px;
+        width: 100px;
+        font-size: 20px;
+        font-family: 'Jolly Lodger', cursive;
+        top: -15%;
+    }
+    .duo-panel .second{
+        height: 40px;
+        width: 100px;
+        font-size: 20px;
+        bottom: -15%;
+        font-size: 20px;
+        font-family: 'Jolly Lodger', cursive;
+    }
+    .squad-panel{
+        height: 300px;
+        width: 150px;
+    }
+    .squad-panel .first{
+        height: 40px;
+        width: 100px;
+        font-size: 20px;
+        font-family: 'Jolly Lodger', cursive;
+        top: -15%;
+    }
+    .squad-panel .second{
+        height: 40px;
+        width: 100px;
+        font-size: 20px;
+        font-family: 'Jolly Lodger', cursive;
+        bottom: -15%;
+    }
+    .tdm-panel{
+        height: 300px;
+        width: 150px;
+        right: 10%;
+        bottom: 30%;
+    }
+    .tdm-panel .first{
+        height: 40px;
+        width: 100px;
+        font-size: 20px;
+        font-family: 'Jolly Lodger', cursive;
+        top: -15%;
+    }
+    .tdm-panel .second{
+        height: 40px;
+        width: 100px;
+        font-size: 20px;
+        font-family: 'Jolly Lodger', cursive;
+        bottom: -15%;
+    }
+}
+/*     font-family: 'Jolly Lodger', cursive;
+
+    font-family: 'K2D', sans-serif;
+
+    font-family: 'Montserrat', sans-serif; */
